@@ -1,0 +1,212 @@
+/* Set the basic styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    background: hsl(233, 47%, 7%);
+    font-family: 'Lexend Deca', sans-serif;
+    }
+    
+/* Set the styles for the main container */
+    .container {
+    width: 330px;
+    background: hsl(244, 38%, 16%);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+    
+/* Set the styles for the hero image */
+.hero-img-div {
+    background-color: hsl(277, 64%, 61%);
+    width: 330;
+    height: 242.19px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+    
+/* Set the styles for the main image */
+img {
+    width: 330px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0.5;
+}
+    
+/* Set the styles for the text content */
+.text-content {
+    padding: 1.5em;
+}
+    
+/* Set the styles for the main header */
+h1 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+    
+/* Set the styles for the span inside the main header */
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+    
+/* Set the styles for the main paragraph */
+.main-p {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+    
+/* Set the styles for the counter */
+.counter {
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+    
+/* Set the styles for the secondary headers */
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+    
+/* Set the styles for the counter paragraphs */
+.counter p {
+    margin: 0px;
+    font-size: 12px;
+}
+    
+/* Set the styles for the attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 100%);
+}
+    
+/* Set the styles for the links inside the attribution */
+.attribution a {
+    color: hsl(277, 64%, 61%);
+}
+
+/* Media query for small screens with a maximum width of 374px*/
+@media screen and (max-width: 374px) {
+    
+    /* Adjusting the width and margin-top of the container */
+    .container {
+        width: 280px;
+        margin-top: 60px;
+    }
+    
+    /* Adjusting the width and height of the hero image container */
+    .hero-img-div {
+        width: 280px;
+        height: 205.5px;
+    }
+
+    /* Adjusting the width of the image */
+    img {
+        width: 280px;
+    }
+
+    /* Adjusting the font size of the attribution */
+    .attribution { 
+        font-size: 10px; 
+    }
+
+}
+
+/* CSS media query for screen sizes with minimum width of 1100px */
+@media screen and (min-width: 1100px) {
+
+    /* Sets the height of the body to 100% viewport height */
+    body {
+        height: 100vh;
+    }
+    
+    /* Styles the container for desktop view */
+    .container {
+        display: flex;
+        width: 1000px;
+        height: 366.96px;
+        flex-direction: row-reverse;
+        border-radius: 10px;
+        margin-top: auto;
+    }
+
+    /* Styles the hero image div for desktop view */
+    .hero-img-div {
+        width: 500px;
+        height: 366.96px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    /* Styles the image for desktop view */
+    img {
+        width: 500px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        opacity: 0.4;
+    }
+
+    /* Styles the text content for desktop view */
+    .text-content {
+        padding: 2.5em;
+    }
+
+    /* Styles the heading for desktop view */
+    h1 {
+        font-family: 'Inter', sans-serif;
+        text-align: left;
+        font-size: 36px;
+    }
+
+    /* Styles the main paragraph for desktop view */
+    .main-p {
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    /* Styles the counter div for desktop view */
+    .counter {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    /* Styles the sub-heading for desktop view */
+    h2 {
+        font-family: 'Inter', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 5px;
+    }
+
+    /* Styles the counter paragraph for desktop view */
+    .counter p {
+        margin: 0px;
+        font-size: 13px;
+    }
+
+    /* Styles the attribution for desktop view */
+    .attribution { 
+        font-size: 16px; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
